@@ -1,0 +1,289 @@
+.mainpage {
+  display: flex;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.loading {
+  font-size: 5rem;
+  font-family: sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.loading h1 {
+  margin: auto;
+}
+
+.sidebar-col {
+  width: 20%;
+}
+
+.header-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.soundstripe-logo {
+  margin: 40px 0;
+  width: 90%;
+}
+
+.submenu-title {
+  margin: 2rem 0 1rem 0;
+  color: #a5a5a5;
+  font-weight: 100;
+  font-size: 12px;
+}
+.submenu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.submenu-list a {
+  margin: 1rem 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.artist-col {
+  width: 20%;
+  background-color: #363636;
+  color: #fff;
+}
+
+.songs-col {
+  width: 60%;
+  background-image: url('../images/ryan-wilson-6626.jpg');
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.artist-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.artist-pic {
+  width: 100%;
+}
+
+.artist-title {
+  margin: 15px;
+  font-size: 2rem;
+  font-weight: 200;
+  width: 90%;
+  text-align: left;
+}
+
+.button {
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.button:hover {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.21);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.share-artist {
+  margin: 20px 0;
+}
+
+.artist-bio {
+  width: 90%;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+.songs-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.songs-header {
+  font-size: 3rem;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.song-header {
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  width: 90%;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+.song-list-item {
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  width: 90%;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.song-list-item:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.21);
+  border-radius: 25px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.next-songs {
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  width: 15%;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.next-songs:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.21);
+  border-radius: 25px;
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: #a5a5a5;
+  transition: background-color 0.5s ease;
+}
+
+.thumbnail-container {
+  width: 10%;
+}
+.thumbnail {
+  margin-left: 25px;
+  margin-top: 3px;
+  height: 90%;
+}
+
+.song-number {
+  width: 5%;
+  margin: auto;
+  text-align: left;
+}
+
+.play-button {
+  width: 5%;
+}
+
+.play-button:hover {
+  cursor: pointer;
+}
+
+.play-img {
+  height: 90%;
+  margin-top: 3px;
+}
+.title {
+  width: 25%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-artist {
+  margin-top: 3px;
+  color: #797979;
+  font-size: 0.7rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.duration {
+  width: 10%;
+  margin: auto;
+  text-align: left;
+}
+
+.mood-tags {
+  width: 15%;
+  margin: auto;
+  position: relative;
+  font-size: 0.6em;
+}
+
+.mood-tags-header {
+  width: 15%;
+  margin: auto;
+  position: relative;
+}
+
+.moods {
+  position: absolute;
+  top: -18px;
+  left: -18px;
+  z-index: 500;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+.mood-item {
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 1px 1px 0.5px rgba(0, 0, 0, 0.25);
+  margin: 3px 0 3px 0;
+  padding: 4px 7px;
+  font-size: 0.6em;
+
+}
+
+.options {
+  width: 10%;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+  transition: background-color 0.5s ease;
+}
+
+.options:hover {
+  background-color :#f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.license {
+  width: 15%;
+  margin: auto;
+  text-align: center;
+}
+
+.license-button {
+  background-color: #a5a5a5;
+  color:#f5f5f5;
+   border-radius: 20px;
+   padding: 6.5px 10px;
+   transition: background-color 0.5s ease;
+}
+
+.license-button:hover {
+  background-color: #383838;
+  color: #fff;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
