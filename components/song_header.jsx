@@ -10,7 +10,7 @@ class SongHeader extends React.Component {
         <div className="title">Title</div>
         <div className="duration">Duration</div>
         <div className="mood-tags-header">Mood</div>
-        <div className="options">Options</div>
+        <div className="header-options">Options</div>
         <div className="license">License</div>
       </div>
     )

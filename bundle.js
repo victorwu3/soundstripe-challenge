@@ -18880,7 +18880,7 @@ var SongHeader = function (_React$Component) {
         ),
         _react2.default.createElement(
           "div",
-          { className: "options" },
+          { className: "header-options" },
           "Options"
         ),
         _react2.default.createElement(
